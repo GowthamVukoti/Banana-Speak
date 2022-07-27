@@ -13,7 +13,7 @@ function getTranslateURL(text){
 
 function errorHandler(error){
    console.log("error occured ", error);
-   alert("Sorry its not my mistake its just you can only translate 5 times for an certain period of time so please try again after some time");
+   alert("Sorry its not my mistake its just that you can only translate a certain amount of times for an certain period of time so please try again after some time DONT BELIEVE ME GOOGLE : status code 429");
 }
 
 function clickHandler() {
