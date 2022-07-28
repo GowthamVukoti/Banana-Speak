@@ -17,23 +17,24 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px;
+    
+    margin: 0;
 }
 textarea{
-    width: 40rem;
-    
-    height: 11rem;
-    padding: 1rem 1rem;
+    width: 100%;
     display: block;
+
+    padding: 1rem 1rem;
+    min-height:20vh;
+    margin-top: 2rem;
+    
     margin-left: auto;
     margin-right: auto;
-    font-size:x-large;
+    font-size:1rem;
 
     
 }
-.txtarea{
-    box-sizing: border-box;
-}
+
 
 
      #output{
@@ -43,8 +44,10 @@ textarea{
     margin-right: auto;
     margin-bottom: 1rem;
     display: block;
-    height: 4rem;
-    width: 38rem;
+    min-height: 20vh;
+    max-height: 30vh;
+    width: auto;
+    overflow:scroll;
     margin-top: 0rem;
 
 }
@@ -75,6 +78,7 @@ h4{
 .footer{
     background-color: var(--primary-color);
     padding: 1.20rem;
+    padding-inline-start: 0px;
 }
 p{
     display: block;
