@@ -21,7 +21,7 @@ body {
     margin: 0;
 }
 textarea{
-   width:100%;
+   width:90%;
     display: block;
     min-height:20vh;
     font-size:1rem;
